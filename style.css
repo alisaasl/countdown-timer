@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(./img/dakota-roos-u7ldh_tgH3s-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+.counter {
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 1rem;
+    color: #fff;
+}
+
+.countdown-cont {
+    display: flex;
+}
+
+.count-item{
+    text-align: center;
+}
+.count-item span{
+    font-size: 1.5 rem;
+}
